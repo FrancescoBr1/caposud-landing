@@ -1,0 +1,124 @@
+html {
+    font-size: 62.5%;
+    /* imposta la dimensione del font in base a quella del browser (di default 16, quindi 10). Tutti i rem si baseranno su questa misura */
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/* importante, insieme col box-sizing dell'html */
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Quicksand", Helvetica, sans-serif;
+}
+
+/* root e altre fisse */
+
+:root {
+    --quasi-bianco: #EEEEEE;
+    --grigio-chiaro: #CCCCCC;
+    --quasi-nero: #303030;
+    --meno-nero: #424242;
+    --giallo1: #FCA51C;
+    --piugiallo: #FFC130;
+    --arancione: #F18033;
+    --arancione-scuro: #E26E1F;
+    --blu: #0396FF;
+    --radius: .3rem;
+    --ombra-light: .1rem .1rem .2rem rgba(0, 0, 0, .3);
+    --ombra-std: .2rem .1rem .7rem rgba(0, 0, 0, .3);
+    --ombra-str: .2rem .1rem .85rem rgba(0, 0, 0, .35);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    font-family: "Quicksand", sans-serif;
+    color: var(--quasi-nero);
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--blu);
+}
+
+h2 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    color: var(--blu);
+}
+
+.p_std {
+    font-family: "Quicksand", sans-serif;
+    font-size: 2.2rem;
+    line-height: normal;
+    font-weight: 400;
+    color: var(--meno-nero);
+}
+
+.strong {
+    font-weight: 700;
+}
+
+section {
+    margin: 6rem 0;
+}
+
+.img_std {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 135rem;
+    margin: 0 auto;
+}
+
+section.items {
+    margin: 14rem 0;
+}
+
+.main-item {
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: 1fr 1.7fr;
+    height: 50rem;
+    margin-bottom: 13rem;
+}
+
+.main-item_r {
+    grid-template-columns: 1.7fr 1fr;
+}
+
+.item-copy {
+    align-self: center;
+    background-color: white;
+    padding: 3rem;
+    margin-top: 8rem;
+    margin-left: -13rem;
+    box-shadow: var(--ombra-light);
+}
+
+.item-copy_r {
+    margin-left: 0;
+    margin-right: -13rem;
+    z-index: 3;
+}
