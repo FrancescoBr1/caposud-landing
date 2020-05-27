@@ -128,8 +128,7 @@ section.items {
     padding: 5.5rem;
     margin-top: 8rem;
     margin-left: -13rem;
-    box-shadow: var(--ombra-light);
-    background: white;
+    background: #fafafa;
 }
 
 .item-copy_r {
