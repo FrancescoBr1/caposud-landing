@@ -68,7 +68,7 @@ p {
 } 
 
 h1 {
-    font-size: 6.3rem;
+    font-size: 6rem;
     line-height: normal;
     font-weight: 600;
     color: var(--blu);
@@ -127,7 +127,7 @@ section {
 }
 
 .badge {
-    width: 25rem;
+    width: 20rem;
     padding: .5rem;
 }
 
