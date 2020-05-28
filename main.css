@@ -33,7 +33,7 @@ body {
     --piugiallo: #FFC130;
     --arancione: #EA5455;
     --verde: #388E3C;
-    --blu: #0396FF;
+    --blu: #207ec1;
     --radius: .3rem;
     --ombra-light: .1rem .1rem .2rem rgba(0, 0, 0, .15);
     --ombra-std: .2rem .1rem .7rem rgba(0, 0, 0, .20);
@@ -68,10 +68,14 @@ p {
 } 
 
 h1 {
-    font-size: 4rem;
+    font-size: 6.3rem;
+    line-height: normal;
     font-weight: 600;
-    text-align: center;
     color: var(--blu);
+}
+
+.main-title h1 {
+    padding-right: 4rem;
 }
 
 h2 {
@@ -82,7 +86,6 @@ h2 {
 }
 
 .p_std {
-    font-family: "Quicksand", sans-serif;
     font-size: 2.2rem;
     line-height: normal;
     font-weight: 400;
@@ -92,14 +95,40 @@ h2 {
     font-weight: 600;
 }
 
+.main-title {
+    display: flex;
+    margin: 0 auto 5rem;
+    align-items: center;
+}
+
+.miniparole {
+    color: var(--verde);
+    font-weight: 400;
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+.top .container {
+    max-width: 120rem;
+}
+
+.top .miniparole {
+    margin-top: 8rem;
+}
+
 section {
-    margin: 6rem 0;
+    margin: 4rem 0;
 }
 
 .img_std {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.badge {
+    width: 25rem;
+    padding: .5rem;
 }
 
 .container {
@@ -114,25 +143,25 @@ section.items {
 .main-item {
     display: grid;
     grid-gap: 5rem;
-    grid-template-columns: 1fr 1.7fr;
+    grid-template-columns: 2fr 1.7fr;
     height: 50rem;
-    margin-bottom: 10rem;
+    margin-bottom: 17rem;
 }
 
 .main-item_r {
-    grid-template-columns: 1.7fr 1fr;
+    grid-template-columns: 1.7fr 2fr;
 }
 
 .item-copy {
     align-self: center;
     padding: 5.5rem;
     margin-top: 11rem;
-    margin-left: -10rem;
+    margin-left: -18rem;
     background: #fafafa;
 }
 
 .item-copy_r {
     margin-left: 0;
-    margin-right: -13rem;
+    margin-right: -18rem;
     z-index: 3;
 }
