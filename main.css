@@ -235,24 +235,50 @@ section.items {
         opacity: 0.5;
     }
 
-    .img_std {
+    .main-item .img_std {
         width: 70rem;
+        height: 45rem;
     }
 
+    .main-item .img_r {
+        justify-self: end;
+    } 
+
     .main-item {
-        display: block;
-        margin-bottom: 34rem;
+        grid-template-areas:
+        "item-img item-img"
+        "item-copy item-copy";
+        margin-bottom: 29rem;
     }
 
     .item-copy {
         width: 70rem;
-        margin-top: -10rem;
+        margin-top: -16rem;
         margin-left: 15rem;
+    }
+
+    .item-copy_r {
+        margin-left: 0;
     }
 
     .item-copy .sfondo {
         bottom: -3rem;
         right: 33rem;
         height: 15rem;
+    }
+
+    .item-copy_r .sfondo {
+        left: 33rem;
+    }
+}
+
+@media (max-width: 400px) {
+
+    html {
+        font-size: 58%;
+    }
+
+    .container {
+        max-width: 100%;
     }
 }
