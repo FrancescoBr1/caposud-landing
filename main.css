@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    font-family: "Nunito", Helvetica, sans-serif;
+    font-family: "Nunito Sans", Helvetica, sans-serif;
 }
 
 /* root e altre fisse */
@@ -47,7 +47,7 @@ h3,
 h4,
 h5,
 p {
-    font-family: "Nunito sans", sans-serif;
+    font-family: "Lato", sans-serif;
     color: var(--meno-nero);
     margin: 0;
 }
@@ -85,7 +85,7 @@ p {
 }
 
 h1 {
-    font-size: 5.2rem;
+    font-size: 5.5rem;
     line-height: normal;
     font-weight: 300;
 }
@@ -115,7 +115,7 @@ h2 {
 }
 
 .miniparole {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 3.2rem;
     text-align: center;
 }
@@ -213,6 +213,10 @@ section.items {
         top: -3rem;
     }
 
+    .main-title h1 {
+        padding-right: 6rem;
+    }
+
 }
 
 @media (max-width: 800px) {
@@ -221,9 +225,8 @@ section.items {
         max-width: 100%;
     }
 
-    h1 {
+    .main-title h1 {
         font-size: 4.7rem;
-        padding-right: 6rem;
     }
 
     .main-item .img_std {
