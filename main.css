@@ -295,6 +295,7 @@ section.items {
     .main-title {
         display: block;
         padding: 0 2.5rem;
+        margin: 0 0 2rem;
     }
 
     .main-title h1 {
@@ -303,25 +304,35 @@ section.items {
     }
 
     .badge {
-        position: block;
+        position: static;
+        display: block;
         opacity: 1;
         margin: 0 auto;
     }
 
     section.items {
-        margin: 14rem 0;
+        margin: 0 0 8rem;
     }
 
     .main-item .img_std {
         width: 100%;
     }
 
+    .main-item {
+        margin-bottom: 25rem;
+    }
+
     .item-copy {
         width: 90%;
         margin-top: -8rem;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: 0;
         padding: 3rem;
+    }
+
+    .item-copy_r {
+        margin-left: 0;
+        margin-right: auto;
     }
 
     .sfondo {
