@@ -308,6 +308,7 @@ section.items {
         display: block;
         opacity: 1;
         margin: 0 auto;
+        width: 27rem;
     }
 
     section.items {
@@ -319,7 +320,7 @@ section.items {
     }
 
     .main-item {
-        margin-bottom: 25rem;
+        margin-bottom: 26rem;
     }
 
     .item-copy {
