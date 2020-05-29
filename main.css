@@ -288,14 +288,28 @@ section.items {
         padding: 0 2.5rem;
     }
 
+    .items .miniparole {
+        margin-bottom: 4rem;
+    }
+
     .main-title {
         display: block;
         padding: 0 2.5rem;
     }
 
-    .maintitle h1 {
+    .main-title h1 {
         font-size: 3.5rem;
         padding-right: 0;
+    }
+
+    .badge {
+        position: block;
+        opacity: 1;
+        margin: 0 auto;
+    }
+
+    section.items {
+        margin: 14rem 0;
     }
 
     .main-item .img_std {
@@ -304,8 +318,10 @@ section.items {
 
     .item-copy {
         width: 90%;
-        margin-top: -13rem;
-        margin-left: 3rem;
+        margin-top: -8rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 3rem;
     }
 
     .sfondo {
