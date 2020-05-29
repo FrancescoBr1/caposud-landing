@@ -7,7 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+
     
     <link type="text/css" rel="stylesheet" href="normalize.css"  media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="main.css"  media="screen,projection"/>
@@ -26,18 +29,17 @@
         <section class="top">
             <div class="container">
                 <div class="main-title">
-                    <h1>Al Capo Sud passa la tua vacanza in serenità e sicurezza </h1>
+                    <h1 class="">Al <span class="strong clr-blu">Capo Sud</span> passa la tua vacanza in <span class="strong clr-verde">serenità e sicurezza</span> </h1>
                     <img class="badge" src="img/accoglienzasicura.png" alt="accoglienza sicura logo">
                 </div>
-                <h2 class="miniparole">
-                    Scopri perché il nostro hotel è adatto a una vacanza serena
-                </h2>
             </div>
         </section>
 
         <section class="items">
             <div class="container">
-
+                <h2 class="miniparole clr-megrigio">
+                    Scopri perché il nostro hotel è troppo il meglio
+                </h2>
                 <div class="main-item">
                     <img src="img/boardwalk.jpg" class="img_std" alt="ampi spazi">
                     <div class="item-copy">
@@ -45,18 +47,19 @@
                         <p class="p_std">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, laudantium, <span class="strong">consequuntur vel veniam maxime</span> vero beatae ut similique nam error quo velit dicta debitis molestiae voluptatibus quis sequi libero impedit.
                         </p>
+                        <div class="sfondo bgr-blu"></div>
                     </div>
                 </div>
 
                 <div class="main-item main-item_r">
+                    <img src="img/bungalow.jpg" class="img_std" alt="ampi spazi">
                     <div class="item-copy item-copy_r">
                         <h2>Ampi spazi e bla bla bla</h2>
                         <p class="p_std">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, laudantium, <span class="strong">consequuntur vel veniam maxime</span> vero beatae ut similique nam error quo velit dicta debitis molestiae voluptatibus quis sequi libero impedit.
                         </p>
-                    </div>
-                    <img src="img/bungalow.jpg" class="img_std" alt="ampi spazi">
-                    
+                        <div class="sfondo bgr-verde"></div>
+                    </div>   
                 </div>
 
                 <div class="main-item">
@@ -66,18 +69,19 @@
                         <p class="p_std">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, laudantium, <span class="strong">consequuntur vel veniam maxime</span> vero beatae ut similique nam error quo velit dicta debitis molestiae voluptatibus quis sequi libero impedit.
                         </p>
+                        <div class="sfondo bgr-arancione"></div>
                     </div>
                 </div>
 
                 <div class="main-item main-item_r">
+                    <img src="img/jelly.jpg" class="img_std" alt="ampi spazi">
                     <div class="item-copy item-copy_r">
                         <h2>Ampi spazi e bla bla bla</h2>
                         <p class="p_std">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, laudantium, <span class="strong">consequuntur vel veniam maxime</span> vero beatae ut similique nam error quo velit dicta debitis molestiae voluptatibus quis sequi libero impedit.
                         </p>
-                    </div>
-                    <img src="img/jelly.jpg" class="img_std" alt="ampi spazi">
-                    
+                        <div class="sfondo bgr-verde"></div>
+                    </div>                    
                 </div>
             </div>
         </section>
@@ -88,6 +92,15 @@
 
     </footer>
 
+
+<script>
+
+    var nav = document.getElementById('navigation');
+    var subHeader = document.getElementsByClassName('subheader');
+
+    subHeader[0].after(nav);
+
+</script>
 
 </body>
 
